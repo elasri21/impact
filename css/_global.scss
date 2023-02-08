@@ -1,0 +1,97 @@
+/*global rules*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: $family;
+    color: $default-c;
+    background-color: $white;
+}
+section {
+    padding: 60px 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    transition: .3s;
+}
+input, textarea {
+    border: none;
+    background: none;
+    outline: none;
+    transition: .3s;
+}
+.container {
+    @media (min-width: 1200px) {
+        margin: 0 100px !important;
+    }
+    @media (min-width: 922px) and (max-width: 1199px) {
+        margin: 0 80px !important;
+    }
+    @media (min-width: 768px) and (max-width: 921px) {
+        margin: 0 60px !important;
+    }
+    margin: 0 30px;
+}
+.pattern {
+    margin-bottom: 40px;
+    h2 {
+        font-size: 35px;
+        font-weight: 600;
+        color: $default-c;
+        text-transform: capitalize;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .line {
+        margin: 0 auto 10px;
+        width: 60px;
+        height: 3px;
+        background-color: $main-c;
+    }
+    p {
+        color: $grey-t;
+        text-align: center;
+    }
+}
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.italic {
+    font-style: italic;
+}
+.c-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btw-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+}
+.align-c {
+    display: flex;
+    align-items: center;
+}
+.grid-250 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.grid-300 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+/*global rules*/

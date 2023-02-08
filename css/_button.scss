@@ -1,0 +1,30 @@
+.button {
+    display: block;
+    width: fit-content;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    letter-spacing: .5px;
+    &.btn-bg {
+        background-color: $btn-bg;
+        color: $white;
+        border-color: $light-grey;
+        &:hover {
+            border-color: $white;
+        }
+    }
+    &.no-bg {
+        background-color: transparent;
+        color: $white;
+        border-color: $white;
+        &:hover {
+            border-color: $main-c;
+            background-color: $main-c;
+        }
+    }
+
+}

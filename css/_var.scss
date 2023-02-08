@@ -1,0 +1,49 @@
+//family
+$family: 'Roboto', sans-serif;
+
+// 
+$top-header: #00796B;
+$main-c: #008374;// border-c
+$btn-bg: #1A9082;
+$box-bg: #008D7D;
+$light-border: rgba($main-c, .4);
+$bg-sec: #F6F6F6;
+$grey-t: #6c757d;
+$light-grey: rgba(255, 255, 255, 0.6);
+$red-c: #f85a40;
+$default-c: #222;
+$yellow-c: #FFC107;
+$bullet-bg: #CCCCCC;
+$white: #fff;
+$border-c: #e4e4e4;
+
+// animation
+@keyframes waves {
+    0% {
+        outline-offset: -6px;
+    }
+    20% {
+        outline-offset: -4px;
+    }
+    40% {
+        outline-offset: -2px;
+    }
+    60% {
+        outline-offset: 0;
+    }
+    80% {
+        outline-offset: 1px;
+    }
+    100% {
+        outline-offset: 2px;
+    }
+}
+
+@keyframes explode {
+    0%, 100% {
+        font-size: 15px;
+    }
+    50% {
+        font-size: 200px;
+    }
+}
